@@ -1,0 +1,265 @@
+/* <XAUI> Copyright For "XiAo_ECloud Network Studio" */
+/* Copyright (c) 2022 XiAo-ECloud MIT License <https://xiao-ecloud.github.io/XAUILicense.txt> */
+
+/* XAUI 按钮组件库 */
+
+/* 默认按钮 */
+.xaui-btn{
+    display: inline-block;
+    min-width: 70px;
+    margin: 2px;
+    transition: all 0.25s;
+    user-select: none;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 18px;
+    outline: none;
+    border: 1px solid #00000000;
+}
+.xaui-btn:hover{
+    background-color: #00000005;
+}
+.xaui-btn:active{
+    transition: all 0s;
+    outline: solid 2px #00000020;
+    background-color: #00000010;
+}
+/* 深色默认 */
+.xaui-btn.dark{
+    color: #ffffff;
+    background-color: #222222;
+}
+.xaui-btn.dark:hover{
+    background-color: #5e5e5e;
+}
+.xaui-btn.dark:active{
+    background-color: #2f2f2f;
+}
+/* 亮色默认 */
+.xaui-btn.light{
+    color: #000000;
+    background-color: #f5f5f5;
+}
+.xaui-btn.light:hover{
+    background-color: #eeeeee;
+}
+.xaui-btn.light:active{
+    background-color: #f5f5f5;
+}
+/* 提示默认 */
+.xaui-btn.info{
+    color: #000000;
+    background-color: #87cefa;
+}
+.xaui-btn.info:hover{
+    background-color: #97eefa;
+}
+.xaui-btn.info:active{
+    background-color: #87cefadd;
+}
+/* 警告默认 */
+.xaui-btn.warning{
+    color: #ffffff;
+    background-color: #ffa500;
+}
+.xaui-btn.warning:hover{
+    background-color: #ffb510;
+}
+.xaui-btn.warning:active{
+    background-color: #ff9500;
+}
+/* 错误默认 */
+.xaui-btn.error{
+    color: #ffffff;
+    background-color: #ff4500;
+}
+.xaui-btn.error:hover{
+    background-color: #ff6520;
+}
+.xaui-btn.error:active{
+    background-color: #ff2500;
+}
+/* 主色默认 */
+.xaui-btn.primary{
+    color: #ffffff;
+    background-color: #304ffe;
+}
+.xaui-btn.primary:hover{
+    background-color: #506ffe;
+}
+.xaui-btn.primary:active{
+    background-color: #203ffe;
+}
+/* 次色默认 */
+.xaui-btn.secondary{
+    color: #ffffff;
+    background-color: #00796b;
+}
+.xaui-btn.secondary:hover{
+    background-color: #20996b;
+}
+.xaui-btn.secondary:active{
+    background-color: #00695b;
+}
+/* 完成默认 */
+.xaui-btn.success{
+    color: #ffffff;
+    background-color: #228b22;
+}
+.xaui-btn.success:hover{
+    background-color: #22ab42;
+}
+.xaui-btn.success:active{
+    background-color: #428b42;
+}
+
+
+/* 深色中空 */
+.xaui-btn.outline.dark{
+    color: #222222;
+    border: 1px solid #222222;
+    background-color: #00000000;
+}
+.xaui-btn.outline.dark:hover{
+    background-color: #555555;
+}
+.xaui-btn.outline.dark:active{
+    color: #ffffff;
+    background-color: #222222;
+}
+/* 亮色中空 */
+.xaui-btn.outline.light{
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    background-color: #00000000;
+}
+.xaui-btn.outline.light:hover{
+    background-color: #fafafa;
+}
+.xaui-btn.outline.light:active{
+    color: #000000;
+    background-color: #ffffff;
+}
+/* 提示中空 */
+.xaui-btn.outline.info{
+    color: #87cefa;
+    border: 1px solid #87cefa;
+    background-color: #00000000;
+}
+.xaui-btn.outline.info:hover{
+    background-color: #a7eefa;
+}
+.xaui-btn.outline.info:active{
+    color: #000000;
+    background-color: #87cefa;
+}
+/* 警告中空 */
+.xaui-btn.outline.warning{
+    color: #ffa500;
+    border: 1px solid #ffa500;
+    background-color: #00000000;
+}
+.xaui-btn.outline.warning:hover{
+    background-color: #fff540;
+}
+.xaui-btn.outline.warning:active{
+    color: #ffffff;
+    background-color: #ffa500;
+}
+/* 错误中空 */
+.xaui-btn.outline.error{
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    background-color: #00000000;
+}
+.xaui-btn.outline.error:hover{
+    background-color: #ffa580;
+}
+.xaui-btn.outline.error:active{
+    color: #ffffff;
+    background-color: #ff4500;
+}
+/* 主色中空 */
+.xaui-btn.outline.primary{
+    color: #304ffe;
+    border: 1px solid #304ffe;
+    background-color: #00000000;
+}
+.xaui-btn.outline.primary:hover{
+    background-color: #a0bffe
+}
+.xaui-btn.outline.primary:active{
+    color: #ffffff;
+    background-color: #304ffe;
+}
+/* 次色中空 */
+.xaui-btn.outline.secondary{
+    color: #00796b;
+    border: 1px solid #00796b;
+    background-color: #00000000;
+}
+.xaui-btn.outline.secondary:hover{
+    background-color: #afd5d1;
+}
+.xaui-btn.outline.secondary:active{
+    color: #ffffff;
+    background-color: #00796b;
+}
+/* 完成中空 */
+.xaui-btn.outline.success{
+    color: #228b22;
+    border: 1px solid #228b22;
+    background-color: #00000000;
+}
+.xaui-btn.outline.success:hover{
+    background-color: #99ba99;
+}
+.xaui-btn.outline.success:active{
+    color: #ffffff;
+    background-color: #228b22;
+}
+
+/* 小按钮 */
+.xaui-btn.small{
+    font-size: 12px;
+    display: inline-block;
+    width: 50px;
+    margin: 2px;
+    transition: all 0.25s;
+    padding: 6px 12px;
+}
+/* 禁用按钮 */
+.xaui-btn.disabled{
+    color: #ffffff;
+    background-color: #dddddd;
+}
+.xaui-btn.disabled:hover{
+    color: #ffffff;
+    background-color: #dddddd;
+}
+.xaui-btn.disabled:active{
+    outline: none;
+    color: #ffffff;
+    background-color: #dddddd;
+}
+/* 按钮组 */
+.xaui-btn-group{
+    display: inline-block;
+}
+.xaui-btn.group:first-child{
+    margin-right: -6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.xaui-btn.group:nth-child(n+2){
+    margin-left: 0px;
+    margin-right: -6px;
+    border-radius: 0px;
+}
+.xaui-btn.group:last-child{
+    margin-left: 1px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 3px;
+}

@@ -1,0 +1,7 @@
+/* <XAUI> Copyright For "XiAo_ECloud Network Studio" */
+/* Copyright (c) 2022 XiAo-ECloud MIT License <https://xiao-ecloud.github.io/XAUILicense.txt> */
+
+/* XAUI快速装载包 */
+@import url('xaui.lib.css');/*核心库文件*/
+@import url('xaui.btn.css');/*按钮库文件*/
+@import url('xaui.block.css');/*div块库文件*/

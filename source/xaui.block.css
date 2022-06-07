@@ -1,0 +1,9 @@
+/* <XAUI> Copyright For "XiAo_ECloud Network Studio" */
+/* Copyright (c) 2022 XiAo-ECloud MIT License <https://xiao-ecloud.github.io/XAUILicense.txt> */
+.xaui-block-default{
+    margin: 0px;
+    padding: 6px;
+    display: block;
+    border-radius: 2px;
+    background-color: #fdfdfd;
+}
